@@ -5,6 +5,8 @@ class KlasaAgnieszki {
       System.out.println ("programowania");
       System.out.println ("i");
       System.out.println ("commitowania");
+
+      System.out.println ("5 + 5 =" + 10);
   }
 }
 
