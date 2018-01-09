@@ -7,6 +7,7 @@ class KlasaAgnieszki {
       System.out.println ("commitowania");
 
       System.out.println ("5 + 5 =" + 10);
+      System.out.println("dodanie zmiany");
   }
 }
 
