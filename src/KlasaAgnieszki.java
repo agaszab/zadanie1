@@ -1,17 +1,30 @@
 class KlasaAgnieszki {
+
   public  static void main (String [] args ){
 
-      int a=5;
-      int b=10;
-      String imie="Ania";
-      double srednia= 4.46;
+
+     double liczba1=12.0;
+     double liczba2=150.0;
+     double suma=liczba1+liczba2;
+     boolean wynik;
+
+      System.out.println(liczba1 + "+" + liczba2 + " = " + (liczba1+liczba2));
+      System.out.println(liczba1 + "-" + liczba2 + " = " + (liczba1-liczba2));
+      System.out.println(liczba1 + "*" + liczba2 + " = " + (liczba1*liczba2));
+      System.out.println(liczba1 + "/" + liczba2 + " = " + (liczba1/liczba2));
+
+      System.out.println(liczba1 >0);
+
+      System.out.println((liczba1+liczba2)%2 == 0);
+      System.out.println((liczba1>100 )|| (liczba2 >100));
+      System.out.println((liczba1>100 ) && (liczba2 >100));
 
 
-      System.out.println("a=" + a);
-      System.out.println("b=" + b);
-      System.out.println("a + b =" + (a+b) );
 
-      System.out.println(imie + " ma średnią " + srednia);
+
+    //  System.out.printf("%d + %d = %d" , liczba1, liczba2, suma);
+
+
 
 
   }
