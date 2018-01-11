@@ -3,18 +3,15 @@ class KlasaAgnieszki {
 
       int a=5;
       int b=10;
+      String imie="Ania";
+      double srednia= 4.46;
 
-      System.out.println ("Uczę");
-      System.out.println ("się");
-      System.out.println ("programowania");
-      System.out.println ("i");
-      System.out.println ("commitowania");
 
-      System.out.println ("5 + 5 =" + 10);
-      System.out.println("dodanie zmiany");
       System.out.println("a=" + a);
       System.out.println("b=" + b);
       System.out.println("a + b =" + (a+b) );
+
+      System.out.println(imie + " ma średnią " + srednia);
 
 
   }
